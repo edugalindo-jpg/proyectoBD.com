@@ -11,6 +11,7 @@ const OrdenCompraSchema = new mongoose.Schema({
     ref: "Proveedor",
     required: true
   },
+  
 
   productos: [
     {
