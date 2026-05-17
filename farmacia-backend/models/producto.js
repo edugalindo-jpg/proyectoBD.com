@@ -10,5 +10,4 @@ const ProductoSchema = new mongoose.Schema({
   }
 });
 
-
 module.exports = mongoose.model("Producto", ProductoSchema);
