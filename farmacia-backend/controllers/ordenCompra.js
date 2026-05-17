@@ -17,6 +17,7 @@ exports.crear = async (req, res) => {
         precioUnitario: p.precioUnitario,
         precioTotal
       };
+      
 
     });
 
