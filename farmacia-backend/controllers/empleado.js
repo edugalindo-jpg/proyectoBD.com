@@ -13,7 +13,6 @@ exports.crear = async (req, res) => {
     res.status(500).json({
       error: error.message
     });
-
   }
 };
 exports.listar = async (req, res) => {
