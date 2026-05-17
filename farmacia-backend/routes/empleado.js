@@ -7,7 +7,6 @@ router.post("/", async (req, res) => {
   res.json(data);
 });
 
-
 router.get("/", async (req, res) => {
   const data = await Empleado.find();
   res.json(data);
