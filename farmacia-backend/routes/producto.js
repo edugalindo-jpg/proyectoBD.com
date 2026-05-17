@@ -47,5 +47,4 @@ router.get("/:nombre", async (req, res) => {
 
 });
 
-
 module.exports = router;
