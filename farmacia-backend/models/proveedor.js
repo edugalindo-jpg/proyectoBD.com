@@ -7,5 +7,4 @@ const ProveedorSchema = new mongoose.Schema({
   direccion: String
 });
 
-
 module.exports = mongoose.model("Proveedor", ProveedorSchema);
